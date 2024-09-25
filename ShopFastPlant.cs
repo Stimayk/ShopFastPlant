@@ -40,7 +40,7 @@ namespace ShopFastPlant
         {
             if (JsonFastPlant == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Áûñòðàÿ óñòàíîâêà C4");
+            SHOP_API.CreateCategory(CategoryName, "Ð‘Ñ‹ÑÑ‚Ñ€Ð°Ñ ÑƒÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ° C4");
 
             foreach (var item in JsonFastPlant.Properties().Where(p => p.Value is JObject))
             {
